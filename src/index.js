@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import Home from './Pages/Home/Home'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import About from './Pages/About/about'
@@ -15,7 +14,7 @@ root.render(
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/*" element={<Error />} />
-                        <Route path="/logements" element={<Accomodations />} />
+                        <Route path="/accomodation/:id" element={<Accomodations />} />
                   </Routes>
             </Router>
       </React.StrictMode>,
