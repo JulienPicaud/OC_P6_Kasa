@@ -1,5 +1,4 @@
-//import './header.scss'
-import './header.css'
+import './header.scss'
 import Logo from '../../assets/images/logo.svg'
 import Nav from '../nav/nav'
 
@@ -8,7 +7,6 @@ export default function Header() {
 		<header className='header'>
 			<h1>
 				<img src={Logo} alt="kasa, location d'appartements" />
-                <p className='test'>lalala</p>
 			</h1>
 			<Nav />
 		</header>
