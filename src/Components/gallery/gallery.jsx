@@ -1,5 +1,6 @@
 import datas from '../../assets/datas'
 import Card from '../cards/cards'
+import './gallery.scss'
 
 export default function Gallery() {
 

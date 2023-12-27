@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './cards.scss'
 
 export default function Card({id, title, cover}) {
 
