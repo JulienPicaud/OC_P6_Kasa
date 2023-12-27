@@ -1,0 +1,12 @@
+@import '../../sass/main.scss';
+
+.about_collapse{
+    width: 95%;
+    margin: 0 auto;
+    &_content{
+        margin: 40px auto;
+        @media screen and (max-width: 550px){
+            margin: 20px auto;
+        }
+    }
+}

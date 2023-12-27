@@ -5,15 +5,15 @@ import Footer from '../../Components/footer/footer'
 
 function error() {
       return (
-            <div className="notFound">
+            <div className="error">
                   <Header />
-                  <div className="notFound_infos">
-                        <h1 className="notFound_infos_title">404</h1>
-                        <p className="notFound_infos_content">
+                  <div className="error_infos">
+                        <h1 className="error_infos_title">404</h1>
+                        <p className="error_infos_content">
                               La page que vous recherchez n'existe pas.
                         </p>
                   </div>
-                  <Link className="notFound_infos_return" to="/">
+                  <Link className="error_infos_return" to="/">
                         Retourner sur la page d'accueil
                   </Link>
                   <Footer />
