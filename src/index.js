@@ -8,7 +8,6 @@ import Accomodations from './Pages/Accomodations/accomodation'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-      <React.StrictMode>
             <Router>
                   <Routes>
                         <Route path="/" element={<Home />} />
@@ -17,5 +16,5 @@ root.render(
                         <Route path="/accomodation/:id" element={<Accomodations />} />
                   </Routes>
             </Router>
-      </React.StrictMode>,
+,
 )
