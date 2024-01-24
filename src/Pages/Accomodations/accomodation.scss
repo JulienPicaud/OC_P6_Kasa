@@ -1,0 +1,18 @@
+@import '../../sass/main.scss';
+
+
+.accomodation{
+    &_content{
+        color: $color-secondary;
+        width: 95%;
+        margin: 0 auto;
+        @media screen and (max-width: 650px){
+            @include flex(column, space-between, flex-start);   
+            gap: 10px;   
+        }
+        &_infos{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: 500;
+            font-size: 14px;}}}

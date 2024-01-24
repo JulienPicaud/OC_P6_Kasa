@@ -12,8 +12,7 @@ export default function Banner() {
 		if(location.pathname === '/about'){
 			setAboutPage(true)
 		};
-		// eslint-disable-next-line
-	}, [])
+	}, [location.pathname])
 
 	return (
 		<section className={aboutPage ? 'banner_about' : 'banner'}>
