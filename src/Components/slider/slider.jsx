@@ -20,13 +20,13 @@ export default function Slider({ imageSlider }) {
             {imageSlider.length > 1 && 
                 <>
                     <img 
-                        className='carousel_arrow carousel_arrow_right' 
+                        className='slider_arrow slider_arrow_right' 
                         src={ArrowRight} 
                         alt="show next slider" 
                         onClick={nextSlide}
                     />
                     <img 
-                        className='carousel_arrow carousel_arrow_left' 
+                        className='slider_arrow slider_arrow_left' 
                         src={ArrowLeft} 
                         alt="show previous slider" 
                         onClick={prevSlide}
