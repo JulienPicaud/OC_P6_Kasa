@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import greyStar from '../../assets/images/grey_star.png'
 import redStar from '../../assets/images/red_star.png'
+import Stars from '../../Components/stars/stars'
 
 export default function Accomodations() {
       const urlIdAccomodation = useParams('id').id
@@ -21,7 +22,6 @@ export default function Accomodations() {
             setCurrentAccomodation(
                   datas.find((data) => data.id === urlIdAccomodation)
             )
-            //setImageSlider(datas[0].pictures)
       }, [currentAccomodation, urlIdAccomodation])
 
       //S'execute à la mise à jour du tableau de dépendance
@@ -55,12 +55,8 @@ export default function Accomodations() {
 						</div>
 
 						<div className="accomodation_content_host_stars">
-							{[...Array(5)].map((star, index) => {
-								const ratingValue = index + 1;
-								return (
-									<img key={index} src={ratingValue <= currentAccomodation.rating ? redStar : greyStar} alt="star" />
-								)
-							})}
+                                    <Stars scoreAccomodation={currentAccomodation.rating} />
+
 						</div>
 					</div>
 
