@@ -7,31 +7,22 @@ import './accomodation.scss'
 import Slider from '../../Components/slider/slider'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import greyStar from '../../assets/images/grey_star.png'
-import redStar from '../../assets/images/red_star.png'
 import Stars from '../../Components/stars/stars'
 
 export default function Accomodations() {
       const urlIdAccomodation = useParams('id').id
       const [currentAccomodation, setCurrentAccomodation] = useState(null)
-      
-      // Etoile boucler sur les etoiles etoile pleine jusu'à la note.
-      useEffect(() => {
-            // s'execute TOUJOURS au montage du composant
-            // Tableau de dépendance vide alors ne s'actualise pas
+            useEffect(() => {
             setCurrentAccomodation(
                   datas.find((data) => data.id === urlIdAccomodation)
             )
       }, [currentAccomodation, urlIdAccomodation])
-
-      //S'execute à la mise à jour du tableau de dépendance
       if (currentAccomodation === undefined) {
             return (document.location.href = '/404')
       }
       if (currentAccomodation === null) {
             return <div>Chargement...</div>
       }
-      //Score: faire une boucle ici ou créer un composant a part et passer en props currentAccomodation.rating
       return (
             <>
                   <Header />
@@ -61,7 +52,7 @@ export default function Accomodations() {
 					</div>
 
 
-
+                              </div>
 
 
                               <div className="accomodation_collapse">
@@ -82,7 +73,7 @@ export default function Accomodations() {
                                           />
                                     </div>
                               </div>
-                        </div>
+                        
                   </main>
                   <Footer />
             </>

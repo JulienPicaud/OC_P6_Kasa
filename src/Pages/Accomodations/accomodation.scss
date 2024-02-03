@@ -2,7 +2,10 @@
 
 
 .accomodation{
+    flex-grow: 1;
+
     &_content{
+        @include flex(row, space-between, flex-start);
         color: $color-secondary;
         width: 95%;
         margin: 0 auto;
@@ -22,25 +25,7 @@
             p{
                 font-size: clamp(14px, 1.6vw, 18px);
             }
-            button{
-                display: inline;
-                padding: 5px 15px;
-                margin-right: 10px;
-                cursor: pointer;
-                border-radius: 10px;
-                border: none;
-                color: $color-primary;
-                background-color: $color-secondary;
-                font-size: clamp(10px, 1.4vw, 14px);
-                &:hover{
-                    box-shadow: 0 2px 8px rgb(0, 0, 0);
-                }
-            }
-            div{
-                display: flex;
-                flex-wrap: wrap;
-                gap: 10px;  
-            }
+
         
         &_host{
             display: flex;

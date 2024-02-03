@@ -4,12 +4,10 @@
 .tag{
     display: flex;
     flex-direction: row;
-    gap: 10px;
     font-weight: 500;
     font-size: 14px;
     @media screen and (max-width: 650px){
         @include flex(row, flex-start);   
-        gap: 10px;   
     }
     button{
         display: inline;
