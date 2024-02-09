@@ -32,7 +32,7 @@ export default function Accomodations() {
                               <div className="accomodation_content_infos">
                                     <h1>{currentAccomodation.title}</h1>
                                     <p>{currentAccomodation.location}</p>
-                                    <Tag />
+                                    <Tag tags={currentAccomodation.tags}/>
                               </div>
 
 
