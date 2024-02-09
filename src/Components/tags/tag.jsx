@@ -2,11 +2,11 @@ import './tag.scss'
 
 export default function Tag(tags) {
 
-      const CurrentAccomodation = tags
+      const tagsAccomodation = tags
 
       return (
             <div className="tag">
-                  {CurrentAccomodation.tags.map((tag, index) => {
+                  {tagsAccomodation.tags.map((tag, index) => {
                         return <button key={index}>{tag}</button>
                   })}
             </div>
