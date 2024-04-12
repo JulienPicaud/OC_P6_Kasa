@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/OC_P6_Kasa/static/css/main.c1c7595f.css",
+    "main.js": "/OC_P6_Kasa/static/js/main.d7f730de.js",
+    "static/media/about_cover.png": "/OC_P6_Kasa/static/media/about_cover.9438035cca5a38fcb06a.png",
+    "static/media/home_cover.png": "/OC_P6_Kasa/static/media/home_cover.84132b0f93bbeaa2fe46.png",
+    "static/media/logo.svg": "/OC_P6_Kasa/static/media/logo.bb1c78bdbf97911cf6044e13e0c4f670.svg",
+    "index.html": "/OC_P6_Kasa/index.html",
+    "main.c1c7595f.css.map": "/OC_P6_Kasa/static/css/main.c1c7595f.css.map",
+    "main.d7f730de.js.map": "/OC_P6_Kasa/static/js/main.d7f730de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1c7595f.css",
+    "static/js/main.d7f730de.js"
+  ]
+}
