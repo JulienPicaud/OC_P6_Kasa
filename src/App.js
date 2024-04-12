@@ -10,7 +10,7 @@ export default function App (){
     return(
             <Router>
                   <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/OC_P6_Kasa" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/*" element={<Error />} />
                         <Route path="/accomodation/:id" element={<Accomodations />} />
