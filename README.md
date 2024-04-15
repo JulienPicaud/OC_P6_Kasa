@@ -1,4 +1,4 @@
-![Kasa](/src/assets/logo.svg)
+[![Kasa](/src/assets/logo.svg)]
 
 # Kasa 🏠🏢
 
