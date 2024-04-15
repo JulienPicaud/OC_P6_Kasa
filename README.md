@@ -1,12 +1,12 @@
-[![Kasa](/src/assets/logo.svg)]
+![Kasa](/src/assets/logo.svg)
 
 # Kasa 🏠🏢
 
-[![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)]
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)]
+![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)]
-[![React](https://img.shields.io/badge/react-20232a?style=for-the-badge&logo=react&logocolor=61dafb)](https://reactjs.org/)
+![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)
+![React](https://img.shields.io/badge/react-20232a?style=for-the-badge&logo=react&logocolor=61dafb)(https://reactjs.org/)
 
 
 
