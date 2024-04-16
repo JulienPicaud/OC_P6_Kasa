@@ -68,7 +68,7 @@ Mon rôle a été de développer le front-end de l’application, en utilisant l
 
 1. Cloner le repository:
 
--   `git clone https://github.com/ArthurBlanc/Kasa`
+-   `git clone https://github.com/JulienPicaud/OC_P6_Kasa`
 
 2. Installer toutes les dépendances pour le front-end:
 
