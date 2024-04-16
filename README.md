@@ -93,4 +93,5 @@ Le front-end sera lancé à l'URL:
 ## Maquettes :
 
 Lien des maquettes : https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=4%3A1
+
 Projet sur github Pages: https://julienpicaud.github.io/
